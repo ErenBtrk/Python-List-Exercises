@@ -6,8 +6,8 @@
 
 list1 = []
 
-for i in range(1,21):
+for i in range(1,30):
     list1.append(i**2)
 
-print(list1[:5])
-print(list1[-5:])
+print(list1[:5]) #first 5
+print(list1[-5:]) #last 5
