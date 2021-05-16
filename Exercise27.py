@@ -20,6 +20,7 @@ print(smallestIndex)
 for item in list1:
     if(item > smallest):
         secondSmallest = item
+        break
 
 for item in list1:
     if(list1.index(item) == smallestIndex):
